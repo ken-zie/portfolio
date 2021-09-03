@@ -3,68 +3,87 @@
     <head>
         <meta charset = "UTF-8">
         <title>HOME | Kenzie Swinford</title>
-        <script src="https://use.fontawesome.com/6baa9c78e6.js"></script>
-        <link rel = "icon" type = "image/png" href = "images/favicon.png">
+        <script src = "https://use.fontawesome.com/6baa9c78e6.js"></script>
         <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Abel">
-        <link rel = "stylesheet" href = "css/ux-portfolio-default.css">
-        <link rel = "stylesheet" href = "css/ux-portfolio-style.css">
+        <link rel = "stylesheet" href = "css/default.css">
+        <link rel = "stylesheet" href = "css/style.css">
     </head>
-
-    <body>
-        <script src = "javascript/fade.js"></script>
-
-        <header id = "navbar">
-            <script src = "javascript/scroll.js"></script>
-            <nav class = "external-nav">
-                <a href = "https://linkedin.com/in/kenzie-swinford" target = "_blank" aria-label = "LinkedIn"><i class = "fa fa-linkedin fa-xs"></i></a>
-                <a href = "https://www.github.com/ken-zie" target = "_blank" aria-label = "Github"><i class = "fa fa-github fa-xs"></i></a>
-            </nav>
-            <nav class = "main-nav">
-                <a href = "home.html" class = "current">Home</a>
-                <div class = "dropdown">
-                    <a href = "user-experience.html" class = "dropbutton">User Experience</a>
-                    <div class = "dropdown-content">
-                        <a href = "user-experience/wireframes.html">Wireframing</a>
-                        <a href = "user-experience/poster.html">Poster</a>
-                    </div>
-                </div>
-                <a href = "connect.html">Connect</a>
-            </nav>
-        </header>
-
-        <section class = "alone full-screen style1">
-            <h1>Kenzie <mark>Swinford</mark></h1>
-        </section>
-
-        <section class = "full-screen style2">
-            <div class = "inside-section">
-                <!-- <figure>
-                    <img id = "computer" src = "images/desktop-mockup.png" alt = "Desktop">
-                </figure> -->
-            </div>
-        </section>
-
-        <section class = "full-screen style1">
-            <div class = "inside-section about">
-                <figure>
-                    <img id = "self" src = "images/kenzie.png" alt = "Kenzie Swinford">
-                </figure>
-                <div id = "about-text-group">
-                    <p class = "p-style1">Hi, I'm Kenzie,</p>
-                    <p class = "p-style2"> 
-                        a <a href = "https://www.msoe.edu/academics/undergraduate-degrees/engineering/mechanical-engineering/" target = "_blank">mechanical engineering</a>
-                         and <a href = "https://msoe.edu/academics/undergraduate-degrees/engineering/computer-science" target = "_blank">computer science</a>
-                         student at the <a href = "https://www.msoe.edu" target = "_blank">Milwaukee School of Engineering</a>.
-                    </p>
-                    <br>
-                    <br>
-                    <p class = "p-style3">
-                        Outside of the classroom, I am active in <mark>3 student organizations</mark>, am working to develop my 
-                        creative side through <mark>web design</mark> and <mark>digital art</mark>, and enjoy experimenting with <mark>Arduino</mark> and other 
-                        electronics by <mark>creating mini projects</mark>.
-                    </p>
-                </div>
-            </div>
-        </section>
-    </body>
 </html>
+
+<body>
+    <script src = "javascript/fade.js"></script>
+
+    <header id = "navbar">
+        <script src = "javascript/scroll.js"></script>
+
+        <nav class = "left icon">
+            <a href = "https://linkedin.com/in/kenzie-swinford" target = "_blank" aria-label = "LinkedIn"><i class = "fa fa-linkedin fa-xs"></i></a>
+            <a href = "https://www.github.com/ken-zie" target = "_blank" aria-label = "Github"><i class = "fa fa-github fa-xs"></i></a>
+        </nav>
+        <nav class = "right website">
+            <a class = "current" href = "home.html">Home</a>
+            <a href = "education.html">Education</a>
+            <div class = "dropdown">
+                <a href = "work-experience.html">Work Experience</a>
+                <div class = "dropdown-content">
+                    <a href = "work-experience/husco.html">HUSCO</a>
+                    <a href = "work-experience/stem-outreach.html">STEM Outreach</a>
+                </div>
+            </div>
+            <div class = "dropdown">
+                <a href = "avocations.html">Avocations</a>
+                <div class = "dropdown-content">
+                    <a href = "avocations/art.html">Art</a>
+                    <a href = "avocations/web-design.html">Web Design</a>
+                    <a href = "avocations/inline-skating">Inline Skating</a>
+                </div>
+            </div>
+            <div class = "dropdown">
+                <a href = "favorites.html">Favorites</a>
+                <div class = "dropdown-content">
+                    <a href = "favorites/music.html">Music</a>
+                    <a href = "favorites/books.html">Books</a>
+                    <a href = "favorites/artists.html">Artists</a>
+                    <a href = "favorites/youtubers.html">YouTubers</a>
+                    <a href = "favorites/movies-tv.html">Movies & Shows</a>
+                </div>
+            </div>
+            <a href = "connect.html">Connect</a>
+        </nav>
+    </header>
+
+    <section class = "style1">
+        <h1>Kenzie <mark>Swinford</mark></h1>
+    </section>
+
+    <section class = "style2">
+        <figure id = "self">
+            <img id = "self" src = "images/kenzie.png" alt = "Kenzie Swinford">
+        </figure>
+
+        <div class = "text" id = "bio">
+            <p class = "p-style1">
+                Hi, I'm Kenzie, 
+            </p>
+            <p class = "p-style2">
+                a 
+                <a href = "https://www.msoe.edu/academics/undergraduate-degrees/engineering/mechanical-engineering/" target = "_blank">mechanical engineering</a> 
+                and 
+                <a href = "https://msoe.edu/academics/undergraduate-degrees/engineering/computer-science" target = "_blank">computer science</a> 
+                student at the 
+                <a href = "https://www.msoe.edu" target = "_blank">Milwaukee School of Engineering</a>.
+            </p>
+            <br>
+            <p class = "p-style3">
+                After graduation, I plan to pursue a career in <mark>robotics engineering</mark>. I am also working to develop my creative side through <mark>art</mark> and 
+                <mark>web design</mark>.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            <a href = "home.html">Kenzie Swinford</a>
+        </p>
+    </footer>
+</body>

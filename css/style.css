@@ -1,0 +1,174 @@
+body {
+    opacity: 1;
+    transition-duration: 0.4s;
+    transition-property: opacity;
+
+    background: rgb(10, 10, 10);
+    background-image: linear-gradient(rgb(40, 40, 40) .05em, transparent 0.01em), 
+                      linear-gradient(90deg, rgb(40, 40, 40) .05em, transparent 0.01em);
+    background-size: 1.7em 1.7em;
+}
+
+body.fade {
+    opacity: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: transparent;
+    transition: background-color 0.2s ease-out;
+    font-family: "Abel";
+    color: rgb(187, 187, 187);
+    font-size: 120%;
+}
+
+header.scroll {
+    background-color:rgb(10, 10, 10);
+}
+
+nav {
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+}
+
+nav a.current {
+    border-bottom: solid 2px white;
+    color: white;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav.icon a {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+nav.website a {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(10, 10, 10);
+    width: 100%;
+    z-index: 1;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.dropdown-content a {
+    color: rgb(187, 187, 187);
+    margin-bottom: 10px;
+    display: block;
+    font-size: 80%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+section {
+    height: 100vh;
+    color: rgb(187, 187, 187);
+    font-family: "Abel";
+}
+
+section.style1 {
+    
+}
+
+section.style2 {
+    background-color: rgb(23, 23, 23);
+}
+
+h1 {
+    padding-top: 25vh;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1100%;
+    font-weight: bold;
+}
+
+h1 mark {
+    color: rgb(187, 187, 187);
+    display: block;
+    width: 100%;
+}
+
+img#self {
+    width: 30vw;
+    padding-top: 15vh;
+}
+
+footer {
+    color: rgb(187, 187, 187);
+    font-family: "Abel";
+    background-color: rgb(10, 10, 10);
+    text-align: right;
+}
+
+footer a:hover {
+    color: white;
+}
+
+section, header, footer {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section p a {
+    color: #B8D157;
+    /* color: #E79548; */
+}
+
+section p a:hover {
+    color: #DFFF29;
+    /* color: #F1CA4A; */
+}
+
+.p-style1 {
+    color: white;
+    font-size: 500%;
+}
+
+.p-style2 {
+    color: white;
+    font-size: 200%;
+}
+
+.p-style3 {
+    font-size: 150%;
+}
+
+.p-style3 mark {
+    color: white;
+}
+
+figure {
+    display: block;
+    float: left;
+}
+
+div#bio {
+    display: block;
+    float: right;
+    width: 50vw;
+    padding-top: 40vh;
+}
